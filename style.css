@@ -1,0 +1,159 @@
+* {
+    /* outline: 1px dotted red; */
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal
+}
+
+div.container {
+    background-color: #e4e4e4;
+    max-width: 750px;
+    height: 630px;
+    margin: auto;
+    overflow: hidden;
+}
+
+    div.header {
+        width: 750px;
+        height: 109px;
+    }
+
+        div.header img {
+            position: absolute;
+            width: 69px;
+            height: 69px;
+            margin: 2px;
+        }
+
+        div.header h1 {
+            padding: 20px 0 2px 75px;
+            color: #474747;
+        }
+
+            div.header h1 span{
+                color: #21659e;
+            }
+
+        div.header h2 {
+            height: 30px;
+            padding: 10px 0 10px 15px;
+            background: linear-gradient(to bottom, #22659e, #5183ac, #22659e);
+            color: white;
+        }
+
+  
+    div.body {
+        
+    }
+
+        div.side_bar {
+            /* background-color: green; */
+            width: 160px;
+            height: 420px;
+            display: inline-block;
+            
+        } 
+            div.side_bar h5.label {
+                font-weight: bold;
+                margin: 15px 0 6px 3px;
+            }
+
+                h5.label span {
+                    color: red;
+                    font-weight: bold;
+                }
+
+            div.side_bar p.side_description {
+                font-size: 10.35px;
+                font-weight: bold;
+                margin: 0 0 22px 3px;
+            }
+            
+                p.side_description span {
+                    color: #2e6da3;
+                }
+
+            div.side_bar div.center{
+                text-align: center;
+            }
+
+                div.center a {
+                    font-size: 13px;
+                    color: white;
+                    text-decoration: none;
+                    display: block;
+                    border-radius: 5px;
+                    padding: 6px;
+                    box-shadow: 1px 1px 1px gray;
+                    margin: 0 5px 3px;
+
+                }
+
+                    div.center a.watch{
+                        background: linear-gradient(to bottom, #6399c3, #22659e)
+                    }
+
+                    div.center a.more {
+                        background: linear-gradient(to bottom, #ebae57, #ef7200)
+                    }
+
+                div.center div.short_line {
+                    background-color: #a2a1a1;
+                    width: 159px;
+                    height: 1px;
+                    margin: 20px 0;
+                }
+                 
+                div.center div.weeks {
+                    height: 237px;
+                    width: 159px;
+                    color: white;
+                    background-image: url("images/ad_background.png");
+                    background-size: 330px 470px;
+                    box-shadow: 1px 2px gray;
+                }
+
+                    div.weeks h3 {
+                        padding-top: 14px;
+                    }
+
+                    div.weeks img.ninja_image {
+                        height: 95px;
+                    }
+
+                    div.weeks p.learn {
+                        background: linear-gradient(to bottom, #78d0e0, #00c0df);
+                        font-size: 12px;
+                        padding: 5px 0;
+                        border-radius: 5px;
+                        box-shadow: 1px 1px black;
+                        margin: 0 10px;
+                    }
+
+                        div.weeks p.learn span {
+                            vertical-align: middle;
+                            font-size: 10px;
+                            background: linear-gradient(to right, #7fdcea, #edfafc);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            
+                        }
+
+        div.main {
+            display: inline-block;
+            vertical-align: top;
+            width: 580px;
+        }
+
+/* 
+
+box blue
+#6399c3
+#22659e
+
+box orange
+#ebae57
+#ef7200
+
+*/
