@@ -1,5 +1,4 @@
 * {
-    /* outline: 1px dotted red; */
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,7 +6,7 @@
 }
 
 div.container {
-    background-color: #e4e4e4;
+   
     max-width: 750px;
     height: 630px;
     margin: auto;
@@ -44,11 +43,10 @@ div.container {
 
   
     div.body {
-        
+        background: linear-gradient(to top, #ffffff 80%, #e4e4e4);
     }
 
         div.side_bar {
-            /* background-color: green; */
             width: 160px;
             height: 420px;
             display: inline-block;
@@ -65,13 +63,14 @@ div.container {
                 }
 
             div.side_bar p.side_description {
-                font-size: 10.35px;
+                font-size: 10.5px;
                 font-weight: bold;
                 margin: 0 0 22px 3px;
             }
             
                 p.side_description span {
                     color: #2e6da3;
+                    font-weight: bold;
                 }
 
             div.side_bar div.center{
@@ -122,38 +121,176 @@ div.container {
                         height: 95px;
                     }
 
-                    div.weeks p.learn {
+                    div.weeks a.learn {
                         background: linear-gradient(to bottom, #78d0e0, #00c0df);
                         font-size: 12px;
                         padding: 5px 0;
                         border-radius: 5px;
                         box-shadow: 1px 1px black;
-                        margin: 0 10px;
+                        margin: 7px 10px 0;
                     }
 
-                        div.weeks p.learn span {
+                        div.weeks a.learn span {
                             vertical-align: middle;
                             font-size: 10px;
                             background: linear-gradient(to right, #7fdcea, #edfafc);
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
-                            
                         }
 
         div.main {
             display: inline-block;
             vertical-align: top;
-            width: 580px;
+            width: 547px;
+            margin-left: 38px;
         }
 
-/* 
+                div img.home {
+                    width: 18px;
+                    height: 16px;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-top: 8px;
+                }
 
-box blue
-#6399c3
-#22659e
+                div h5.dns {
+                    margin-top: 10px;
+                    display: inline-block;
+                    vertical-align: top;
+                    color: #326fa4;
+                    font-size: 12px;
+                }
 
-box orange
-#ebae57
-#ef7200
+                div img.phone {
+                    width: 34px;
+                    height: 34px;
+                    display: inline-block;
+                    margin-left: 325px;
+                }
 
-*/
+                div div.contact {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 125px;
+                    text-align: center;
+                }
+
+                    div.contact p {
+                        padding-left: 5px;
+                        font-size: 8px;
+                        color: #7a7a7a;
+                    }
+
+                    div.contact h3 {
+                        font-weight: bold;
+                        color: #04c2e0;
+                    }
+
+            div.main div.long_line {
+                margin: 10px 10px 0 0;
+                border-top: 1px solid #a2a1a1;
+            }
+
+                div.long_line h5.cs_label_list {
+                    font-weight: bold;
+                    color: #2869a0;
+                    font-size: 15px;
+                    margin-top: 5px;
+                }
+
+                div.long_line p {
+                    margin: 6px 0;
+                    font-size: 11px;
+                }
+
+                    div.long_line p span {
+                        color: #019db3;
+                    }
+
+                    div.long_line p span.cs_bold {
+                        color: black;
+                        font-weight: bold;
+                    }
+
+                div.long_line ul {
+                    font-size: 11px;
+                    margin: 0 5px 0 30px;
+                }
+
+                div.long_line ul li {
+                    margin-bottom: 6px;
+                }
+
+                    div.long_line ul li span {
+                        color: #019db3;
+                    }
+
+                div.long_line img {
+                    margin: 0 0 5px 161px;
+                    height: 83px;
+                    width: 215px;
+                }
+
+                div.long_line h5.so_label_list {
+                    margin: 3px 0 5px;
+                    font-weight: bold;
+                    color: #2869a0;
+                    font-size: 15px;
+                }
+
+                div.long_line ol {
+                    font-size: 11px;
+                    margin: 0 5px 0 30px;
+                }
+
+                    div.long_line ol li {
+                        margin: 0 0 6px 5px
+                    }
+
+                        div.long_line ol li span {
+                            color: #019db3;
+                        }
+
+            div.main div.main_bottom {
+                border: 4px solid #0085e0;
+                box-shadow: 1px 0px 1px gray;
+                border-bottom-style: none;
+                margin: 18px 12px 0 6px;
+            }
+
+                div.main_bottom img {
+                    margin: 10px 0 0 10px;
+                    width: 85px;
+                    height: 80px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                div.main_bottom div.big_three {
+                    margin: 10px 0 0 10px;
+                    width: 411px;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+
+                    div.big_three h5 {
+                        font-weight: bold;
+                        color: #2869a0;
+                        font-size: 15px;
+                    }
+
+                    div.big_three p {
+                        margin-top: 3px;
+                        font-size: 11px;
+                    }
+
+                        div.big_three p span {
+                            font-style: italic;
+                            margin-bottom: 3px;
+                        }
+
+                        div.big_three p a {
+                            text-decoration: none;
+                            color: #019db3;
+                        }
+
